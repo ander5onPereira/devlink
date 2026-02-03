@@ -53,3 +53,14 @@ npm run start
 Acessar
 
 Abra `http://localhost:3000` no navegador após executar o servidor de desenvolvimento.
+
+Fake API
+
+- Um endpoint de mock foi adicionado para testes: `GET /api/users`
+- Exemplo:
+
+```bash
+curl http://localhost:3000/api/users
+```
+
+O endpoint retorna uma lista simples de usuários (`id`, `name`, `username`, `avatar`, `bio`, `links`,`actions`).
