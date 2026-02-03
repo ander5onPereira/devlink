@@ -1,0 +1,3 @@
+[submodule "rocketseat-front-end"]
+	path = rocketseat-front-end
+	url = https://github.com/ander5onPereira/rocketseat-front-end.git
